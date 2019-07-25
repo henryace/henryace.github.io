@@ -7,7 +7,7 @@ author:     BY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - GitHubPages
+    - GitHub_Pages
 ---
 # 第一篇 github blog 紀錄
 
@@ -15,7 +15,8 @@ tags:
 
 先 clone 後 Repository 再慢慢改
 
-<https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B>
+1.<https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B>
+<http://bit.ly/2OruoWK>
 
-<https://www.minwt.com/website/server/18522.html>
+2.<https://www.minwt.com/website/server/18522.html>
 
