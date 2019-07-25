@@ -12,6 +12,8 @@ tags:
 ---
 # Markdown extenson with VS Code
 
+建議安裝下面兩個套件寫 Markdown
+
 1.Markdown All in One  
 2.Markdown Preview Enhanced
 
