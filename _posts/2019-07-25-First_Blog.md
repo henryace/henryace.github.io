@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      First Blog
-subtitle:   函数式编程框架 ReactiveCocoa 进阶
+subtitle:   
 date:       2019-07-25
 author:     henryace
 header-img: img/post-bg-ios9-web.jpg
