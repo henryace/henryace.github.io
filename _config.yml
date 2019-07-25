@@ -104,5 +104,8 @@ friends: [
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
+    },{
+        title: "Google",
+        href: "https://www.google.com/"
     }
 ]
