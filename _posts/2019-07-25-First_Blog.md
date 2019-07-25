@@ -11,9 +11,11 @@ tags:
 ---
 # 第一篇 github blog 紀錄
 
-偷懶方式 = =
+超偷懶方式 = =
 
-先 clone 後 Repository 再慢慢改
+先 clone 第1個 repository 後再慢慢改
+
+參考資料：
 
 1.<https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B>
 <http://bit.ly/2OruoWK>
