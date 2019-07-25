@@ -1,8 +1,8 @@
 # Site settings
-title: 什麼都有 什麼都不奇怪
-SEOTitle: 柏荧的博客 | BY Blog
+title: 五花八門
+SEOTitle: 
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: grtert@gmail.com
 description: "Life is like riding a bicycle. To keep your balance you must keep moving.
 ─ Albert Einstein."
 keyword: "C++, Python, Django"
@@ -70,16 +70,15 @@ gitalk:
   admin: henryace
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-
 # 统计
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
