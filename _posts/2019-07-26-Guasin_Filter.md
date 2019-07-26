@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Gaussian Filter
+title:      Gaussian Filter 紀錄
 subtitle:   
 date:       2019-07-26
 author:     henryace
@@ -18,4 +18,5 @@ tags:
 2.Gaussin filter for edge detection
 <http://bit.ly/2OfuWhZ>
 
-
+3.MIT Lecture
+<http://bit.ly/2Onbe40> 
