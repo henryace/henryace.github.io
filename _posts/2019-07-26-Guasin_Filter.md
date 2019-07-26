@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Gaussian_filter
     - Edge_detectopm
+    - Computer_vision
 ---
 # Gaussian filter for edge detection
 
