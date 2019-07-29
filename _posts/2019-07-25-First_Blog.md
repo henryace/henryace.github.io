@@ -7,7 +7,7 @@ author:     henryace
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - GitHub_Pages
+    - GitHubPages
 ---
 # 第一篇 github blog 紀錄
 

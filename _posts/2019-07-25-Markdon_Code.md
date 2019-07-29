@@ -7,8 +7,8 @@ author:     henryace
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - GitHub_Pages
-    - VS_Code
+    - GitHubPages
+    - VSCode
 ---
 # Markdown extenson with VS Code
 

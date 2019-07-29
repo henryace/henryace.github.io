@@ -7,9 +7,9 @@ author:     henryace
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Gaussian_filter
-    - Edge_detectopm
-    - Computer_vision
+    - GaussianFilter
+    - EdgeFetectopm
+    - ComputerVision
 ---
 # Gaussian filter for edge detection
 
