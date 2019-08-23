@@ -11,7 +11,7 @@ tags:
 ---
 # Restful API
 
-如何在ubuntu建立 PyCharm 桌面捷徑?<br>
+如何建立 Restful API 設計風格<br>
 
 1.Restful API 教學<br>
 
