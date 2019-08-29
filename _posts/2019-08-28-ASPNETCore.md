@@ -17,7 +17,7 @@ ASP.NET Core 安裝
 
 <https://ithelp.ithome.com.tw/articles/10192429><br>
 
-2.簡明RESTful API設計要點<br>
+2.安裝 ASP.NET Core 2 on ubuntu<br>
 
 Install .NET Core SDK on Linux Ubuntu 16.04 - x64<br>
 
