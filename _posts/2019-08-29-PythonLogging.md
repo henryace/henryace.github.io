@@ -19,13 +19,13 @@ Python logging 介紹
 <http://zetcode.com/python/logging/><br>
 <http://yhhuang1966.blogspot.com/2018/04/python-logging_24.html><br>
 
- logging.NOTSET	  0	  未設定		x
- logging.DEBUG	  10  除錯等級		logging.debug()
- logging.INFO	  20  訊息等級	    logging.info()
- logging.WARNING  30  警告等級	    logging.warning()
- logging.ERROR	  40  錯誤等級	    logging.error()
- logging.CRITICAL 50  嚴重錯誤等級	logging.critical()
- 
+|logging.NOTSET	|0	|未設定	|x
+|logging.DEBUG	|10	|除錯等級	|logging.debug()
+|logging.INFO	|20	|訊息等級	|logging.info()
+|logging.ERROR	|30	|警告等級	|logging.warning()
+|logging.WARNING	|40	|錯誤等級	|logging.error()
+|logging.CRITICAL	|50	|嚴重錯誤等級	|logging.critical()
+
  logging.WARNING = 30時，logging.WARNING、logging.ERROR、logging.CRITICAL都會印出來
  
 ```python
