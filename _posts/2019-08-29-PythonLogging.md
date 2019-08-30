@@ -4,7 +4,7 @@ title:      Python Logging
 subtitle:   
 date:       2019-08-29
 author:     henryace
-header-img: img/post-bg-ios8-web.jpg
+header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
     - python

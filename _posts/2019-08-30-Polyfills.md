@@ -4,7 +4,7 @@ title:      Polyfills
 subtitle:   
 date:       2019-08-29
 author:     henryace
-header-img: img/post-bg-ios8-web.jpg
+header-img: img/post-bg-js-version.jpg
 catalog: true
 tags:
     - polyfills
