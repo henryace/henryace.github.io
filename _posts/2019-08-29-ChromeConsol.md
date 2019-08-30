@@ -4,7 +4,7 @@ title:      Chrome console
 subtitle:   
 date:       2019-08-29
 author:     henryace
-header-img: img/post-bg-ios8-web.jpg
+header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - javascript
