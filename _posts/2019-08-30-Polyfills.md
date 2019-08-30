@@ -28,8 +28,11 @@ polyfill：一個用在瀏覽器API上的shim<br>
 1)我們通常的做法是先檢查當前瀏覽器是否支援某個API<br>
 2)如果不支援的話就載入對應的polyfill.然後新舊瀏覽器就都可以使用這個API了<br>
 
-術語polyfill來自於一個家裝產品Polyfilla:
-Polyfilla是一個英國產品,在美國稱之為Spackling Paste(譯者注:刮牆的,在中國稱為膩子).
+術語polyfill來自於一個家裝產品Polyfilla:<br>
+Polyfilla是一個英國產品,在美國稱之為Spackling Paste
+
+
+<img src ="https://images.unsplash.com/photo-1416138645715-930585fe4ce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" title="turtle">"
 
 ```js
 if (!Number.isNaN) {
