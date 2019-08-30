@@ -17,6 +17,9 @@ tags:
 
 "polyfill 是小段程式碼，用各種技術來幫忙各個舊的瀏覽器，補完新的 API，讓你使用起來沒有落差"<br>
 
+術語polyfill來自於一個家裝產品Polyfilla:<br>
+Polyfilla是一個英國產品,在美國稱之為Spackling Paste
+
 <img src ="https://miro.medium.com/max/4236/1*-EecBWd6hfgqfSMAsYH6sg.png" title="polyfill">"
 
 2.Shim和Polyfill的差別?<br>
@@ -27,9 +30,6 @@ polyfill：一個用在瀏覽器API上的shim<br>
 做法：<br>
 1)我們通常的做法是先檢查當前瀏覽器是否支援某個API<br>
 2)如果不支援的話就載入對應的polyfill.然後新舊瀏覽器就都可以使用這個API了<br>
-
-術語polyfill來自於一個家裝產品Polyfilla:<br>
-Polyfilla是一個英國產品,在美國稱之為Spackling Paste
 
 ```js
 if (!Number.isNaN) {
