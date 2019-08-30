@@ -17,7 +17,7 @@ tags:
 
 "polyfill 是小段程式碼，用各種技術來幫忙各個舊的瀏覽器，補完新的 API，讓你使用起來沒有落差"<br>
 
-<https://medium.com/@tsoen/%E4%BB%80%E9%BA%BC%E6%98%AF-polyfills-89f98f45caf5><br>
+<img src ="https://miro.medium.com/max/4236/1*-EecBWd6hfgqfSMAsYH6sg.png" title="polyfill">"
 
 2.Shim和Polyfill的差別?<br>
 
@@ -31,9 +31,6 @@ polyfill：一個用在瀏覽器API上的shim<br>
 術語polyfill來自於一個家裝產品Polyfilla:<br>
 Polyfilla是一個英國產品,在美國稱之為Spackling Paste
 
-
-<img src ="https://images.unsplash.com/photo-1416138645715-930585fe4ce2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" title="turtle">"
-
 ```js
 if (!Number.isNaN) {
 	Number.isNaN = function isNaN(x) {
@@ -42,5 +39,7 @@ if (!Number.isNaN) {
 }
 ```
 
+Reference:
+<https://medium.com/@tsoen/%E4%BB%80%E9%BA%BC%E6%98%AF-polyfills-89f98f45caf5><br>
 <https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/29473/><br>
 <https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20%26%20going/ch2.md><br>
