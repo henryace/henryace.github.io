@@ -1,282 +1,325 @@
+# Beautiful Jekyll
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
+[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+> *Copyright 2019 [Dean Attali](https://deanattali.com)*
 
-[![Build Status](https://travis-ci.org/qiubaiying/qiubaiying.github.io.svg?branch=master)](https://travis-ci.org/qiubaiying/qiubaiying.github.io)
-[![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-qiubaiying-qiubaiying-github-io-master)
-[![GitHub issues](https://img.shields.io/github/issues/qiubaiying/qiubaiying.github.io.svg?style=flat)](https://github.com/qiubaiying/qiubaiying.github.io/issues)
-[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
-[![](https://img.shields.io/github/stars/qiubaiying/qiubaiying.github.io.svg?style=social&label=Star)](https://github.com/qiubaiying/qiubaiying.github.io)
-[![](https://img.shields.io/github/forks/qiubaiying/qiubaiying.github.io.svg?style=social&label=Fork)](https://github.com/qiubaiying/qiubaiying.github.io)
+**Beautiful Jekyll** is a ready-to-use template to help you create an awesome website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://deanattali.com/beautiful-jekyll) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [here](#showcased-users-success-stories).
 
+**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/daattali/20) for developing and maintaining this template.**
 
-博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 
- 
-更为详细的教程戳这 [《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 或 [wiki](https://github.com/qiubaiying/qiubaiying.github.io/wiki/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B)
+<p align="center">
+  <a href="https://www.paypal.me/daattali">
+    <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" />
+  </a>
+</p>
 
->
-### [查看博客戳这里 👆](http://qiubaiying.github.io)
+### Table of contents
 
+- [Prerequisites](#prerequisites)
+- [Build your website in 3 steps](#build-your-website-in-3-steps)
+- [Add your own content](#add-your-own-content)
+- [Last important thing: YAML front matter ("parameters" for a page)](#last-important-thing-yaml-front-matter-parameters-for-a-page)
+- [Features](#features)
+- [Creating a User Page vs a Project Page](#creating-a-user-page-vs-a-project-page)
+- [Showcased users (success stories!)](#showcased-users-success-stories)
+- [Advanced: local development](#advanced-local-development-using-docker)
+- [FAQ and support](#faq-and-support)
+- [Credits and contributions](#credits)
 
+## Prerequisites
 
-## 使用
+- You need to have a GitHub account. If you don't have one, [sign up here](https://github.com/join) - it takes one minute. This is where your website will live - if you sign up with username `johnsmith` then your website will be `https://johnsmith.github.io`.
+- It would be helpful to understand what Markdown is and how to write it. Markdown is just a way to take a piece of text and format it to look a little nicer.  For example, this whole instruction set that you're reading is written in markdown - it's just text with some words being bold/larger/italicized/etc. I recommend taking 5 minutes to learn markdown [with this amazingly easy yet useful tutorial](https://markdowntutorial.com/).
 
-* 开始
-	* [环境](#环境)
-	* [开始](#开始)
-	* [撰写博文](#撰写博文)
-* 组件
-	* [侧边栏](#侧边栏)
-	* [迷你关于我](#mini-about-me)
-	* [推荐标签](#featured-tags)
-	* [好友链接](#friends)
-	* [HTML5 演示文档布局](#keynote-layout)
-* 评论与 Google/Baidu Analytics
-	* [评论](#comment)
-	* [网站分析](#analytics) 
-* 高级部分
-	* [自定义](#customization)
-	* [标题底图](#header-image)
-	* [搜索展示标题-头文件](#seo-title)
+## Build your website in 3 steps
 
+Getting started is *literally* as easy as 1-2-3 :smile:
+Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps.
 
+![Installation steps](img/install-steps.gif)
 
-### 环境
+### 1. Fork this repository
 
-如果你安装了 [jekyll](http://jekyllcn.com/)，那你只需要在命令行输入`jekyll serve` 或 `jekyll s`就能在本地浏览器中输入`http://127.0.0.1:4000/`预览主题，对主题的修改也能实时展示（需要强刷浏览器）。
+(Assuming you are on this page and logged into GitHub) Fork this repository by clicking the *Fork* button on the top right corner. Forking means that you now copied this whole project and all the files into your account.
 
+### 2. Rename the repository to `<yourusername>.github.io`
 
+This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes.  To do this, click on *Settings* at the top (the cog icon) and there you'll have an option to rename.
 
-### 开始
+### 3. Customize your website settings
 
-你可以通用修改 `_config.yml`文件来轻松的开始搭建自己的博客:
+Edit the `_config.yml` file to change all the settings to reflect your site. To edit the file, click on it and then click on the pencil icon (watch the video tutorial above if you're confused).  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further. Any line that begins with a pound sign (`#`) is a comment, and the rest of the lines are actual settings.
 
-```
-# Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
-description: "Hey"	   	   # 随便说点，描述一下
+Another way to edit the config file (or any other file) is to use [prose.io](https://prose.io/), which is just a simple interface to allow you to more intuitively edit files or add new files to your project.
 
-# SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so.
 
-# Build settings
-# paginate: 10              # 一页你准备放几篇文章
-```
+You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages. Your website is at `https://<yourusername>.github.io` (replace `<yourusername>` with your user name). Do not add `www` to the URL - it will not work!
 
-Jekyll官方网站还有很多的参数可以调，比如设置文章的链接形式...网址在这里：[Jekyll - Official Site](http://jekyllrb.com/) 中文版的在这里：[Jekyll中文](http://jekyllcn.com/).
+**Note:** The video above goes through the setup for a user with username `daattalitest`. I only edited one setting in the `_config.yml` file in the video, but **you should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
 
-### 撰写博文
+## Add your own content
 
-要发表的文章一般以 **Markdown** 的格式放在这里`_posts/`，你只要看看这篇模板里的文章你就立刻明白该如何设置。
+To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file directly.  It is much easier to write markdown than HTML, so I suggest you do that (use the [tutorial I mentioned above](https://markdowntutorial.com/) if you need to learn markdown). You can look at some files on this site to get an idea of how to write markdown. To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there is a word in bold, a link, bullet points), and if you click on the pencil icon to edit the file, you will see the markdown that generated the pretty text. Very easy!
 
-yaml 头文件长这样:
+In contrast, look at [`index.html`](./index.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
 
-```
----
-layout:     post
-title:      定时器 你真的会使用吗？
-subtitle:   iOS定时器详解
-date:       2016-12-13
-author:     BY
-header-img: img/post-bg-ios9-web.jpg
-catalog: 	 true
-tags:
-    - iOS
-    - 定时器
----
+Any file that you add inside the [`_posts`](./_posts) directory will be treated as a blog entry.  You can look at the existing files there to get an idea of how to write blog posts.  After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
 
-```
+As mentioned previously, you can use [prose.io](https://prose.io/) to add or edit files instead of doing it directly on GitHub, it can be a little easier that way.
 
-### 侧边栏
+## Last important thing: YAML front matter ("parameters" for a page)
 
-看右边:
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-side.png)
-
-设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
-
-```
-# Sidebar settings
-sidebar: true  #添加侧边栏
-sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-by.jpg     #你的大头贴，请使用绝对地址.注意：名字区分大小写！后缀名也是
-```
-
-侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
-
-
-### Mini About Me
-
-Mini-About-Me 这个模块将在你的头像下面，展示你所有的社交账号。这个也是响应式布局，当屏幕变小时候，会将其移动到页面底部，只不过会稍微有点小变化，具体请看代码。
-
-### Featured Tags
-
-看到这个网站 [Medium](http://medium.com) 的推荐标签非常的炫酷，所以我将他加了进来。
-这个模块现在是独立的，可以呈现在所有页面，包括主页和发表的每一篇文章标题的头上。
-
-```
-# Featured Tags
-featured-tags: true  
-featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
-```
-
-唯一需要注意的是`featured-condition-size`: 如果一个标签的 SIZE，也就是使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐。
- 
-内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
-
-### Social-media Account
-
-在下面输入的社交账号，没有的添加的不会显示在侧边框中。新加入了[简书](https:/www.jianshu.com)链接, <http://www.jianshu.com/u/e71990ada2fd>
-
-	# SNS settings
-	RSS: false
-	jianshu_username: 	jianshu_id 
-	zhihu_username:     username
-	facebook_username:  username
-	github_username:    username
-	# weibo_username:   username
-	
-	
-
-![](http://ww4.sinaimg.cn/large/006tKfTcgy1fgrgbgf77aj308i02v748.jpg)
-
-### Friends
-
-好友链接部分。这会在全部页面显示。
-
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
-
-```
-# Friends
-friends: [
-    {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
-    },
-    {
-        title: "Apple",
-        href: "https://apple.com/"
-    }
-]
-```
-
-
-### Keynote Layout
-
-HTML5幻灯片的排版：
-
-![](https://camo.githubusercontent.com/f30347a118171820b46befdf77e7b7c53a5641a9/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d6b65796e6f74652e6a7067)
-
-这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
-
-其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的yaml头文件的写法。
+In order to have your new pages use this template and not just be plain pages, you need to add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page. This is where you'll give each page some parameters that I made available, such as a title and subtitle. I'll go into more detail about what parameters are available later. If you don't want to use any parameters on your new page (this also means having no title), then use the empty YAML front matter:
 
 ```
 ---
-layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
 ---
 ```
 
-iframe在不同的设备中，将会自动的调整大小。保留内边距是为了让手机用户可以向下滑动，以及添加更多的内容。
-
-
-### Comment
-
-博客不仅支持 [Disqus](http://disqus.com) 评论系统,还加入了 [Gitalk](https://gitalk.github.io/) 评论系统，[支持 Markdwon 语法](https://guides.github.com/features/mastering-markdown/)，cool~
-
-#### Disqus
-
-优点：国际比较流行，界面也很大气、简洁，如果有人评论，还能实时通知，直接回复通知的邮件就行了；
-
-缺点：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
-
-> Node：有很多人反映 Disqus 插件加载不出来，可能墙又架高了，有条件的话翻个墙就好了~
-
-**使用：**
-
-**首先**，你需要去注册一个Disqus帐号。**不要直接使用我的啊！**
-
-**其次**，你只需要在下面的 yaml 头文件中设置一下就可以了。
+If you want to use any parameters, write them between the two lines. For example, you can have this at the top of a page:
 
 ```
-# 评论系统
-# Disqus（https://disqus.com/）
-disqus_username: qiubaiying
+---
+title: Contact me
+subtitle: Here you'll find all the ways to get in touch with me
+---
 ```
 
-#### Gitalk
+You can look at the top of [`aboutme.md`](./aboutme.md) or [`index.html`](./index.html) as more examples.
 
-优点：界面干净简洁，利用 Github issue API 做的评论插件，使用 Github 帐号进行登录和评论，最喜欢的支持 Markdown 语法，对于程序员来说真是太 cool 了。
+**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**    
+If you don't include YAML then your file will not use the template.
 
-缺点：配置比较繁琐，每篇文章的评论都需要初始化。
+## Features
 
-**使用：**
+### Mobile-first
+**Beautiful Jekyll** is designed to look great on both large-screen and small-screen (mobile) devices. Load up your site on your phone or your gigantic iMac, and the site will work well on both, though it will look slightly different.
 
-参考我的这篇文章：[《为博客添加 Gitalk 评论插件》](http://qiubaiying.top/2017/12/19/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0-Gitalk-%E8%AF%84%E8%AE%BA%E6%8F%92%E4%BB%B6/)
+### Customizable
+
+Many personalization settings in `_config.yml`, such as setting your name and site's description, changing the background colour/image, setting your avatar to add a little image in the navigation bar, customizing the links in the menus, customizing what social media links to show in the footer, etc.
+
+### Allowing users to leave comments
+
+If you want to enable comments on your site, Beautiful Jekyll supports either the [Disqus](https://disqus.com/) comments plugin, [Facebook](https://developers.facebook.com/docs/plugins/comments) comments, [Staticman](https://staticman.net) or [JustComments](https://just-comments.com). If any of these are set in the configuration file, then all blog posts will have comments turned on by default. To turn off comments on a particular blog post, add `comments: false` to the YAML front matter. If you want to add comments on the bottom of a non-blog page, add `comments: true` to the YAML front matter.
+
+#### Disqus comments
+
+To use Disqus, simply sign up to [Disqus](https://disqus.com/) and add your Disqus shortname to the `disqus` parameter in the `_config.yml` file.
+
+#### Facebook comments
+
+To use Facebook comments, create a Facebook app using [Facebook developers](https://developers.facebook.com/docs/apps/register), and add the Facebook App ID to the `fb_comment_id` parameter in `_config.yml`.
+
+#### Staticman comments
+
+To use Staticman, you first need to invite `staticmanlab` as a collaborator to your repository (by going to your repository **Settings** page, navigate to the **Collaborators** tab, and add the username `staticmanlab`), and then accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`. Lastly, fill in the `staticman` parameters in the Staticman section of `_config.yml`. You may also choose a different Staticman instance other than `staticmanlab`.
+
+Optional: You may want to configure a webhook to prevent old inactive branches (representing approved comments) from stacking up.  You can refer to [Staticman's documentation](https://staticman.net/docs/webhooks) for details.  Make sure to input the **Payload URL** according to your chosen `endpoint`.  For example, the default `endpoint` is `https://staticman3.herokuapp.com/v3/entry/github/`, so the corresponding **Payload URL** should be `https://staticman3.herokuapp.com/v1/webhook`.
+
+#### JustComments
+
+To use JustComments you first need to have an account. After you just need to copy the API key to the `just-comments` property in `_config.yml` file.
+
+### Adding Google Analytics to track page views
+
+Beautiful Jekyll lets you easily add Google Analytics to all your pages. This will let you track all sorts of information about visits to your website, such as how many times each page is viewed and where (geographically) your users come from.  To add Google Analytics, simply sign up to [Google Analytics](https://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `google_analytics` parameter in `_config.yml`.
+
+### Sharing blog posts on social media
+
+By default, all blog posts will have buttons at the bottom of the post to allow people to share the current page on Twitter/Facebook/LinkedIn.  You can choose to enable/disable specific social media websites in the `_config.yml` file. You can also turn off the social media buttons on specific blog posts using `social-share: false` in the YAML front matter.
+
+### RSS feed
+
+Beautiful Jekyll automatically generates a simple RSS feed of your blog posts, to allow others to subscribe to your posts.  If you want to add a link to your RSS feed in the footer of every page, find the `rss: false` line in `_config.yml` and change it to `rss: true`.
+
+### Page types
+
+- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
+- **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
+- **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
+- If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
+
+### YAML front matter parameters
+
+These are the main parameters you can place inside a page's YAML front matter that **Beautiful Jekyll** supports.
+
+Parameter   | Description
+----------- | -----------
+title       | Page or blog post title
+subtitle    | Short description of page or blog post that goes under the title
+tags        | List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example: `[personal, self help, finance]`
+bigimg      | Include a large full-width image at the top of the page.  You can either give the path to a single image, or provide a list of images to cycle through (see [my personal website](https://deanattali.com/) as an example).
+comments    | If you want do add comments to a specific page, use `comments: true`. Comments are automatically enabled on blog posts; to turn comments off for a specific post, use `comments: false`. Comments only work if you enable at least one provider(diqus, staticman, just-comments) in `_config.yml` file.
+show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`. If you want to turn it off by default, locate the line `show-avatar: true` in the file `_config.yml` and change the `true` to `false`; then you can selectively turn it on in specific pages using `show-avatar: true`.
+image       | If you want to add a personalized image to your blog post that will show up next to the post's excerpt and on the post itself, use `image: /path/to/img`.
+share-img   | If you want to specify an image to use when sharing the page on Facebook or Twitter, then provide the image's full URL here.
+social-share | If you don't want to show buttons to share a blog post on social media, use `social-share: false` (this feature is turned on by default).
+use-site-title | If you want to use the site title rather than page title as HTML document title (ie. browser tab title), use `use-site-title: true`. When set, the document title will take the format `Site Title - Site Description` (eg. `My website - A virtual proof that name is awesome!`). By default, it will use `Page Title` if it exists, or `Site Title` otherwise.
+layout      | What type of page this is (default is `post` for blog posts and `page` for other pages. You can use `minimal` if you don't want a header and footer)
+js          | List of local JavaScript files to include in the page (eg. `/js/mypage.js`)
+ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
+css         | List of local CSS files to include in the page
+ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported.
+googlefonts | List of Google fonts to include in the page (eg. `["Monoton", "Lobster"]`)
+gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
+gh-badge  | Select which GitHub buttons to display, available options are: [star, watch, fork, follow]. You must also use the `gh-repo` parameter to specify the GitHub repo.
+
+### Advanced features (including how to use a custom URL address for your site)
+
+I wrote [a blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that are applicable to any Jekyll site.  It describes how I used a custom URL for my site (deanattali.com instead of daattali.github.io), how to add a Google-powered search into your site, and provides a few more details about having an RSS feed.
+
+## Creating a User Page vs a Project Page
+
+If you're not sure what the difference is, you can probably safely ignore this section.
+
+If you want to use this theme to host a website that will be available at `https://YOURUSERNAME.github.io`, then you do not need to read this section. That is called a User Page, you can only have one User Page in your GitHub account, and it is what you get by default when forking this project.
+
+If you want to use this theme to create a website for a particular repository, it will be available at `https://YOURUSERNAME.github.io/PROJECTNAME`, and that is called a [Project Page](https://help.github.com/articles/user-organization-and-project-pages/). You can have a Project Page for any repository you have on GitHub.
+
+**When using this theme for a Project Page, by default your website will be served from the `gh-pages` branch**, so you must take the following steps: 
+
+1. [Delete the existing `gh-pages` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#deleting-a-branch)
+
+2. [Create a new branch named `gh-pages` from the `master` branch](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository#creating-a-branch)
+
+Alternatively, instead of the above two steps, you can opt to use the `master` branch instead of `gh-pages` branch as your website's source by choosing that option in the main Settings page. 
+
+## Showcased users (success stories!)
+
+To my huge surprise, Beautiful Jekyll has been used in over 500 websites in its first 6 months alone! Here is a hand-picked selection of some websites that use Beautiful Jekyll.
+
+Want your website featured here? [Contact me](https://deanattali.com/aboutme#contact) to let me know about your website.
+
+### Project/company websites
+
+| Website | Description |
+| :------ |:----------- |
+| [repidemicsconsortium.org/](https://www.repidemicsconsortium.org/) | R Epidemics Consortium |
+| [vaccineimpact.org](https://www.vaccineimpact.org/) | Vaccine Impact Modelling Consortium |
+| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
+| [bigdata.juju.solutions](http://bigdata.juju.solutions) | Creating Big Data solutions Juju Solutions |
+| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
+| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
+| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
+| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
+| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
+| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
+| [guitarlessons.org](https://www.guitarlessons.org/) | Free online guitar lessons for all |
+| [terremotocentroitalia.info](https://www.terremotocentroitalia.info/) | Information about the 2016 Italy earthquake |
 
 
-### Analytics
+### Personal websites
 
-网站分析，现在支持百度统计和Google Analytics。需要去官方网站注册一下，然后将返回的code贴在下面：
+| Website | Who | What |
+| :------ |:--- | :--- |
+| [deanattali.com](https://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
+| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
+| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
+| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
+| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
+| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
+| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
+| [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
+| [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
+| [ocram85.com](https://ocram85.com) | Marco Blessing | A personal blog about PowerShell and automation |
+| [khanna.cc](https://khanna.cc/) | Harry Khanna | Law and software |
 
+## Advanced: Local development using Docker
+
+Beautiful Jekyll is meant to be so simple to use that you can do it all within the browser. However, if you'd like to develop locally on your own machine, that's possible too if you're comfortable with command line. Follow these simple steps set that up with Docker:
+
+1. Make sure you have [Docker](https://www.docker.com/) installed.
+
+2. Clone your repository locally.
+
+    ```bash
+    git clone https://github.com/<your_username>/<your_username>.github.io.git
+    ```
+
+3. Run the following shell commands to build the docker image and start the container for the first time:
+
+    ```bash
+    cd <repository_folder>
+    docker build -t beautiful-jekyll "$PWD"
+    docker run -d -p 4000:4000 --name beautiful-jekyll -v "$PWD":/srv/jekyll beautiful-jekyll
+    ```
+
+
+Now that Docker is set up, you do not need to run the above steps again. You can now view your website at http://localhost:4000/. You can start the container again in the future with:
+
+```bash
+docker start beautiful-jekyll
 ```
-# Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
-# Google Analytics
-ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+And you can stop the server with:
+
+```bash
+docker stop beautiful-jekyll
 ```
 
-### Customization
+Whenever you make any changes to `_config.yml`, you must stop and re-start the server for the new config settings to take effect.
 
-如果你喜欢折腾，你可以去自定义这个模板的 Code。
+Disclaimer: I personally am NOT using local development so I don't know much about running Jekyll locally. If you follow this route, please don't ask me questions because unfortunately I honestly won't be able to help!
 
-**如果你可以理解 `_include/` 和 `_layouts/`文件夹下的代码（这里是整个界面布局的地方），你就可以使用 Jekyll 使用的模版引擎 [Liquid](https://github.com/Shopify/liquid/wiki)的语法直接修改/添加代码，来进行更有创意的自定义界面啦！**
+## FAQ and support
 
-### Header Image
+If you need any help, I suggest heading over to the [Jekyll support forum](https://talk.jekyllrb.com/).
 
-博客每页的标题底图是可以自己选的，看看几篇示例post你就知道如何设置了。
-  
-标题底图的选取完全是看个人的审美了。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
+Beautiful Jekyll is actively used by thousands of people with wildly varying degrees of competency, so it's impossible to answer all the questions that may arise. Below are answers to a few very common questions. Most questions that I get asked are not directly related to this theme, and instead are more general questions about Jekyll or web development. Many such questions can be answered by reading the [Jekyll documentation](https://jekyllrb.com/) or with Google.
 
-> 上传的图片最好先压缩，这里推荐 imageOptim 图片压缩软件，让你的博客起飞。
+#### How do I change the number of posts per page OR the colour of the navigation bar OR the image in the navigation bar OR ...?
 
-但是需要注意的是本模板的标题是**白色**的，所以背景色要设置为**灰色**或者**黑色**，总之深色系就对了。当然你还可以自定义修改字体颜色，总之，用github pages就是可以完全的个性定制自己的博客。
+Beautiful Jekyll is built to be very customizable, and as such, many questions about "how do I change ..." can be answered by looking at the `_config.yml` file. The configuration file has many adjustable parameters to customize your site.
 
-### SEO Title
+#### How do I add a favicon to my site?
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“柏荧的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+Easy! Just place a valid `favicon.ico` (or another valid favicon image) in the root directory of your project. And then wait! It can take a while to update.
 
-其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
+#### How do I move the blog to another page instead of having it on the home page?
 
-### 关于收到"Page Build Warning"的 Email
+The default style of Beautiful Jekyll is to feature the blog feed on the front page. But for many sites that's not the ideal structure, and you may want to have a separate dedicated page for the blog posts. To have the blog hosted on a different URL (for example at `<mysite.com>/blog`), copy the `index.html` file into a folder with the same name as the desired page (for example, to `blog/index.html`), and in the `_config.yml` file you need to add a parameter `paginate_path: "/<page name>/page:num/"` (for example `paginate_path: "/blog/page:num/"`).
 
-由于jekyll升级到3.0.x,对原来的 pygments 代码高亮不再支持，现只支持一种-rouge，所以你需要在 `_config.yml`文件中修改`highlighter: rouge`.另外还需要在`_config.yml`文件中加上`gems: [jekyll-paginate]`.
+#### What size do you recommend using for the `bigimg` photos?
 
-同时,你需要更新你的本地 jekyll 环境.
+Unfortunately, this is a no-answer! There isn't a one-size-fits-all solution to this, because every person will view your site on a different browser with different dimensions. Some browsers will have very wide aspect ratio, some will be narrower, some will be vertical (such as phones), different phones have different screens, etc. The image will always be centered, so the only tip I can give is that you should make sure the important part of the image is in the middle so that it'll always show. Other than that, every browser will show a different clipping of the image.
 
-使用`jekyll server`的同学需要这样：
+#### How do I use MathJax equations in my posts?
 
-1. `gem update jekyll` # 更新jekyll
-2. `gem update github-pages` #更新依赖的包
+MathJax can be easily integrated into your website with a one-line addition. You can see [this discussion](https://github.com/daattali/beautiful-jekyll/issues/195) for more information.
 
-使用`bundle exec jekyll server`的同学在更新 jekyll 后，需要输入`bundle update`来更新依赖的包.
+#### My project page appear to be broken after a recent update!
 
-> Note：
-> 可以使用 `jekyll -s` 命令在本地实时配置博客，提高效率。详见 [Jekyll.com](http://jekyllcn.com/)
+In June 2019, some URL related settings have been adjusted to be more in-line with how Jekyll uses them officially. Project Page absolute links might appear to be broken if you haven't propagated all necessary changes to your local templates, or if you have created additional templates making use of old settings. If a link contains a duplicated project path component, this is most likely the cause. In summary:
 
-参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
+| &nbsp; | Old behavior | New behavior |
+| --- | --- | --- |
+| `url` setting | `https://user.github.io/projectname` | (unset, GitHub auto detects) |
+| `baseurl` setting | `/projectname` | (unset, GitHub auto detects) |
+| Absolute link construction | `{{ site.url }}/your/path` | `{{ '/your/path' \| absolute_url }}` |
+| Relative link construction | `{{ site.baseurl }}/your/path` | `{{ '/your/path' \| relative_url }}` |
 
+## Credits
 
-## 致谢
+This template was not made entirely from scratch. I would like to give special thanks to:
+- [Barry Clark](https://github.com/barryclark) and his project [Jekyll Now](https://github.com/barryclark/jekyll-now), from whom I've taken several ideas and code snippets, as well as some documenation tips.
+- [Iron Summit Media](https://github.com/IronSummitMedia) and their project [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from which I've used some design ideas and some of the templating code for posts and pagination.
 
-1. 这个模板是从这里 [Hux](https://github.com/Huxpro/huxpro.github.io) fork 的, 感谢这个作者。 
-2. 感谢 Jekyll、Github Pages 和 Bootstrap!
+I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
 
-## License
+## Contributions
 
-遵循 MIT 许可证。有关详细,请参阅 [LICENSE](https://github.com/qiubaiying/qiubaiying.github.io/blob/master/LICENSE)。
+If you find anything wrong or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.  Any comments are welcome!
 
+Thank you to [all contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). Special thanks to  [@OCram85](https://github.com/OCram85) and [@abelcheung](https://github.com/abelcheung) for contributing multiple times as well as helping with discussions.
+
+If you do fork or clone this project to use as a template for your site, I would appreciate if you keep the link in the footer to this project.  I've noticed that several people who forked this repo removed the attribution and I would prefer to get the recognition if you do use this :)
+
+## Known limitations
+
+- If you have a project page and you want a custom 404 page, you must have a custom domain.  See https://help.github.com/articles/custom-404-pages/.  This means that if you have a regular User Page you can use the 404 page from this theme, but if it's a website for a specific repository, the 404 page will not be used.
+
+- If there are many navigation bar links and avatar, some of the links may get partially hidden behind the avatar. 
