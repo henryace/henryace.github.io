@@ -123,9 +123,6 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # If you want to use JustComments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
 
-# To use Facebook Comments, fill in a Facebook App ID
-fb_comment_id: "2697598283583993"
-
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
@@ -135,6 +132,9 @@ gitalk:
   owner: henryace    #github用户名
   admin: henryace
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+# To use Facebook Comments, fill in a Facebook App ID
+fb_comment_id: "2697598283583993"
 
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
