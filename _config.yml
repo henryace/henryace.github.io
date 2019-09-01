@@ -126,6 +126,16 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # To use Facebook Comments, fill in a Facebook App ID
 fb_comment_id: "2697598283583993"
 
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: c02ab4361a2ffe6408c2                            #生成的clientID
+  clientSecret: a66b75d4e88350e7f2414e954ec9f8772ba06267    #生成的clientSecret
+  repo: henryace.github.io    #仓库名称
+  owner: henryace    #github用户名
+  admin: henryace
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
 # To use Staticman comments, fill in repository, branch, and endpoint
 staticman:
   repository : # GitHub username/repository eg. "daattali/beautiful-jekyll"
