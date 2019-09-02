@@ -11,11 +11,10 @@ tags:
 ---
 # JavaScript:number-precision  
 
+使用 number-precision 套件
+
+<https://github.com/nefe/number-precision>
 
 ```js
 0.1 + 0.2 === 0.3 // false; 0.30000000000000004
 ```
-
-使用 number-precision 套件
-
-<https://github.com/nefe/number-precision>
