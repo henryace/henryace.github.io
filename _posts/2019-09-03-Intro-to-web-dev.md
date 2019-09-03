@@ -39,13 +39,21 @@ Introduction to web dev
 <https://pjchender.blogspot.com/2017/01/javascript-es6-template-literalstagged.html>
 
 4.Linux 的 ls 指令教學與常用範例整理<br>
-4.1.-a 參數可以顯示隱藏的檔案與目錄。
-4.2.-h 參數可以讓輸出的資訊以比較容易閱讀的格式呈現。
-4.3.-l 參數可以顯示檔案與目錄的詳細資訊。
+4.1 ls -lah
+4.1.1.-a 參數可以顯示隱藏的檔案與目錄。
+4.1.2.-h 參數可以讓輸出的資訊以比較容易閱讀的格式呈現。
+4.1.3.-l 參數可以顯示檔案與目錄的詳細資訊。
 
 ```bash
 ls -lah
 ```
 
-
 <https://blog.gtwang.org/linux/linux-ls-command-tutorial/><br>
+<https://explainshell.com/><br>
+
+4.2 pipe |
+這個管線命令『 | 』僅能處理經由前面一個指令傳來的正確資訊，也就是 standard output 的資訊，對於 stdandard error 並沒有直接處理的能力。那麼整體的管線命令可以使用下圖表示：
+<img src ="http://linux.vbird.org/linux_basic/0320bash//0320bash_3.png" title="pipe">"
+
+from 鳥哥
+<http://linux.vbird.org/linux_basic/0320bash.php><br>
