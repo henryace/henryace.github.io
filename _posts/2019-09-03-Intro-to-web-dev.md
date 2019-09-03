@@ -13,7 +13,7 @@ tags:
     - frontendmasters 
     - bash
     - linux
-	- git
+    - git
 ---
 # Introduction to web dev  
 
