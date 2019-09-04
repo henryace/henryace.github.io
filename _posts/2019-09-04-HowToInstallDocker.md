@@ -14,7 +14,7 @@ tags:
 
 How to install Docker<br>
 
-##Following the steps:##<br>
+## Following the steps: ##<br>
 <https://darren1231.pixnet.net/blog/post/349736695-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAtensorflow%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E7%92%B0%E5%A2%83%E2%80%93nvidia-docker><br>
 縮網址<http://bit.ly/2Lovqhq><br>
 
@@ -40,7 +40,7 @@ sudo apt-get update
 Repository configuration:<br>
 <https://nvidia.github.io/nvidia-docker/><br>
 
-##想要將實體機器的目錄直接掛載至 Docker 容器內，使用 -v 參數##
+## 想要將實體機器的目錄直接掛載至 Docker 容器內，使用 -v 參數 ##
 
 ```bash
 docker run --runtime=nvidia -it -v /home/G/test:/data tensorflow/tensorflow:latest-gpu bash
