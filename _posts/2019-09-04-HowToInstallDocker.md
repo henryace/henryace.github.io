@@ -15,7 +15,6 @@ tags:
 ## How to install Docker<br>
 
 Following the steps: <br>
-<https://darren1231.pixnet.net/blog/post/349736695-%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAtensorflow%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E7%92%B0%E5%A2%83%E2%80%93nvidia-docker><br>
 縮網址<http://bit.ly/2Lovqhq><br>
 
 在第3步驟安裝nvidia docker時<br>
