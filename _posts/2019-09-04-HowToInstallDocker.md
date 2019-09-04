@@ -20,11 +20,6 @@ Following the steps: <br>
 在第3步驟安裝nvidia docker時<br>
 
 設置Repository configuration <br>
-
-step 1:Add the package repositories <br>
-step 2: <br>
-step 3: <br>
-
 可以直接參考下面的bash script<br>
 
 ```bash
@@ -36,17 +31,19 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 sudo apt-get update
 ```
 
-Repository configuration:<br>
+官網教你Repository configuration:<br>
 <https://nvidia.github.io/nvidia-docker/><br>
 
 ## 目錄掛載至 Docker
 
-想要將實體機器的目錄直接掛載至 Docker 容器內，使用 -v 參數
+想要將實體機器的目錄直接掛載至 Docker 容器內，使用 -v 參數<br>
 
 ```bash
 docker run --runtime=nvidia -it -v /home/G/test:/data tensorflow/tensorflow:latest-gpu bash
 python # default:python2.7
 python3 # python3.6.8
+python -c 'import tensorflow as tf; print(tf.__version__)'  # 1.14.0
+python3 -c 'import tensorflow as tf; print(tf.__version__)'  # for Python 3
 ```
 
 <https://blog.gtwang.org/linux/docker-commands-and-container-management-tutorial/>
