@@ -7,7 +7,7 @@ author:     henryace
 header-img: img/post-bg-keybord.jpg
 catalog: true
 tags:
-    - javascript
+    - JavaScript
 ---
 # 瀏覽器裡的JavaScript
 

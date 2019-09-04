@@ -9,7 +9,7 @@ catalog: true
 tags:
     - html
     - css
-    - javascript
+    - JavaScript
     - frontendmasters 
     - bash
     - linux

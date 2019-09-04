@@ -7,7 +7,7 @@ author:     henryace
 header-img: img/post-bg-debug.jpg
 catalog: true
 tags:
-    - javascript
+    - JavaScript
     - Chrome
 ---
 # Chrome console

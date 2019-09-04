@@ -7,7 +7,7 @@ author:     henryace
 header-img: img/post-bg-js-version.jpg
 catalog: true
 tags:
-    - javascript
+    - JavaScript
 ---
 # undefined vs undeclared vs uninitialized
 

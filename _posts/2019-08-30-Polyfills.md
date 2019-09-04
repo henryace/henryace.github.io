@@ -8,7 +8,7 @@ header-img: img/post-bg-js-version.jpg
 catalog: true
 tags:
     - polyfills
-    - javascript
+    - JavaScript
     - shim
 ---
 # Polyfills
