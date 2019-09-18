@@ -16,10 +16,10 @@ tags:
 當你設定一個元素樣式為 box-sizing:<br> 
 這個元素的內距和邊框將不會增加元素本身的寬度。<br> 
 
-|參數值	|語法	|說明
-|content-box	|box-sizing:content-box;|DIV 設定的寬度僅為內容寬度，而內距與邊框額外加上去。
-|border-box	|box-sizing:border-box;|DIV 設定的寬度就已經包含內容寬度、內距與邊框寬度。
-|inherit	|box-sizing:inherit;|繼承至父層的 broder-sizing 設定値。
+|參數值	     |語法	  |說明
+|content-box	|box-sizing:content-box; |DIV 設定的寬度僅為內容寬度，而內距與邊框額外加上去。
+|border-box	|box-sizing:border-box;      |DIV 設定的寬度就已經包含內容寬度、內距與邊框寬度。
+|inherit	|box-sizing:inherit;         |繼承至父層的 broder-sizing 設定値。
 
 
 參考資料：
