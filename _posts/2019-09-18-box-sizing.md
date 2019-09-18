@@ -22,7 +22,7 @@ tags:
 |inherit	|box-sizing:inherit;         |繼承至父層的 broder-sizing 設定値。
 
 
-參考資料：
+參考資料：<br>
 1.學習 CSS 版面配置：<br>
 <http://zh-tw.learnlayout.com/box-sizing.html><br>
 2.CSS3 box-sizing 屬性<br>
