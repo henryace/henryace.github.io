@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      css: box-sizing  屬性
+title:      css:box-sizing屬性
 subtitle:   
 date:       2019-09-18
 author:     henryace
